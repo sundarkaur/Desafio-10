@@ -1,0 +1,107 @@
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    	url("PlayfairDisplay-BlackItalic.woff") format("woff"),
+    	url("PlayfairDisplay-BlackItalic.otf") format("opentype");
+    
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("PlayfairDisplay-Regular.woff2") format("woff2"),
+    	url("PlayfairDisplay-Regular.woff") format("woff"),
+    	url("PlayfairDisplay-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:"Roboto";
+
+    src:url("Roboto-Light.woff2") format("woff2"),
+    	url("Roboto-Light.woff") format("woff"),
+    	url("Roboto-Light.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family:"Roboto";
+
+    src:url("Roboto-Regular.woff2") format("woff2"),
+    	url("Roboto-Regular.woff") format("woff"),
+    	url("Roboto-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+.navbar{
+	background-color: black;
+	height: 90px;
+}
+#logo{
+	margin-top: 25px;
+	margin-left: 130px;
+	width: 140px; 
+	height: 50px;
+}
+
+#nos{
+   color: white;
+   padding-right: 0px;
+}
+
+#trab{
+   color: white;
+   padding-right: 0px;
+}
+
+#blog{
+  color: white;
+  padding-right: 0px;
+}
+
+#hora{
+  color: white;
+  padding-right: 0px;
+}
+
+#cont{
+  color: white;
+  padding-right: 100px;
+}
+#foto1{
+	position: relative;
+	width: 100%;
+}
+#titulo{
+	position: absolute; top: 400px;
+	color: white;
+	margin-left: 340px;
+	font-family:"Playfair Display";
+	font-style: italic;
+    font-weight: 700px;
+    font-size: 80px;
+    margin-left: 240px;
+} 
+
+#texto1{
+	padding-top: 40px;
+  padding-left: 195px;
+	color: black;
+}
+.texto2{
+	color: black;
+  padding: 0;
+}
+
+@media (min-width: 992px){ 
+
+.texto2{
+    padding: 10px 150px 0 150px;
+}
