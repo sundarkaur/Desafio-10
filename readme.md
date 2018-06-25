@@ -1,3 +1,5 @@
+https://sundarkaur.github.io/Desafio-10/
+
 # Maquetación - Front End B-learning
 
 ## Maquetando una entrada de blog
@@ -40,3 +42,5 @@ Recuerda que la página web deberá ser responsiva. Toma como referencia el sigu
 Luego debes enviar los cambios (vía push) y subir el link del repositorio a la sección correspondiente en la plataforma [empieza](https://empieza.desafiolatam.com "Desafío Latam").
 
 Mucha suerte!
+https://sundarkaur.github.io/Desafio-10/
+https://sundarkaur.github.io/Desafio-10/

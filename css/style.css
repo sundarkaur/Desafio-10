@@ -1,78 +1,38 @@
-@font-face {
-    font-family:"Playfair Display";
 
-    src:url("PlayfairDisplay-BlackItalic.woff2") format("woff2"),
-    	url("PlayfairDisplay-BlackItalic.woff") format("woff"),
-    	url("PlayfairDisplay-BlackItalic.otf") format("opentype");
-    
-    font-style: italic;
-    font-weight: 700;
-}
-@font-face {
-    font-family:"Playfair Display";
-
-    src:url("PlayfairDisplay-Regular.woff2") format("woff2"),
-    	url("PlayfairDisplay-Regular.woff") format("woff"),
-    	url("PlayfairDisplay-Regular.otf") format("opentype");
-
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family:"Roboto";
-
-    src:url("Roboto-Light.woff2") format("woff2"),
-    	url("Roboto-Light.woff") format("woff"),
-    	url("Roboto-Light.otf") format("opentype");
-
-    font-style: normal;
-    font-weight: 300;
-}
-@font-face {
-    font-family:"Roboto";
-
-    src:url("Roboto-Regular.woff2") format("woff2"),
-    	url("Roboto-Regular.woff") format("woff"),
-    	url("Roboto-Regular.otf") format("opentype");
-
-    font-style: normal;
-    font-weight: 400;
-}
 
 .navbar{
-	background-color: black;
+	background-color: #121619;
 	height: 90px;
 }
 #logo{
 	margin-top: 25px;
-	margin-left: 130px;
-	width: 140px; 
-	height: 50px;
+	margin-left: 150px;
+	width: 90px; 
+	height: 35px;
 }
 
 #nos{
-   color: white;
+   color: #A4A4A4;
    padding-right: 0px;
 }
 
 #trab{
-   color: white;
+   color: #A4A4A4;
    padding-right: 0px;
 }
 
 #blog{
-  color: white;
+  color: #A4A4A4;
   padding-right: 0px;
 }
 
 #hora{
-  color: white;
+  color: #A4A4A4;
   padding-right: 0px;
 }
 
 #cont{
-  color: white;
+  color:  #A4A4A4;
   padding-right: 100px;
 }
 #foto1{
@@ -80,28 +40,157 @@
 	width: 100%;
 }
 #titulo{
+  font-family: 'Playfair Display', serif;
 	position: absolute; top: 400px;
 	color: white;
 	margin-left: 340px;
-	font-family:"Playfair Display";
-	font-style: italic;
-    font-weight: 700px;
-    font-size: 80px;
-    margin-left: 240px;
+  font-size: 80px;
+  margin-left: 240px;  
 } 
-
+#angle{
+  position: absolute; top: 700px;
+  margin-left: 32%;
+  color:#FFFFFF;
+  font-size: 60px;
+}
+    
+#calendario{
+  margin-top: 35px;
+  float: left;
+  padding-right: 10px;
+  margin-left: 150px;
+  color: #A4A4A4;
+}
 #texto1{
-	padding-top: 40px;
-  padding-left: 195px;
-	color: black;
+  padding-top: 30px;
+  font-family: 'Playfair Display', serif;
+  padding-left: 30px;
+	color: #A4A4A4;
+  
 }
 .texto2{
-	color: black;
+	color: #A4A4A4;
   padding: 0;
+
 }
 
 @media (min-width: 992px){ 
 
 .texto2{
     padding: 10px 150px 0 150px;
+    color: #A4A4A4;   }
+}
+
+.icons_bottom{
+  margin: 50px 0 50px 0;
+  z-index: 0;
+}
+.redes{
+  margin-top: 30px;
+  color: #ffffff;
+  background-color: #707070;
+  border-radius: 50px;
+  font-size: 30px;
+  border: 10px solid #707070;
+  text-align: center;
+
+}
+.fa-heart{
+  margin-left: 50px;
+}
+#comentar{
+  color: #A4A4A4;
+  float: right;
+  font-size: 9px;
+  margin-top: 10px;
+  height: 2px;
+}
+.usuario{
+  margin-left: 25%;
+  color: #707070;
+  background-color: #FFFFFF;
+  font-size: 40px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 23px;
+}
+
+.fila-naomi{
+  position: relative;
+  border-top: 1px solid #A4A4A4;
+  height: 70px;
+  z-index: 0;
+  width: 100%;
+
+  float: left;
+  margin-top: 50px; 
+  width: 100%;
+}
+#naomi_foto{
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 25px;
+  float: left;
+  margin-left: 170px;
+  
+}
+#nombre_naomi{
+  padding-top:75px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  margin-left: 360px;
+}
+#mail{
+  margin-left: 360px;
+  margin-top: 10px;
+  color: #A4A4A4;
+  
+}
+
+.texto-naomi{
+   width: 30%;
+   color: #A4A4A4;
+   margin-left: 60%;
+}  
+
+.bottom{  
+   background-color: #D8D8D8;
+   height: 130px;  
+}
+#bottom_texto1{
+  margin-top: 60px;
+  color: #848484;
+}
+.izquierda{
+  margin-top: 60px;
+  font-size: 30px;
+  color: white;
+  float: left;
+  margin-left: 230px;
+  padding-right: 15px;
+}
+#bottom_texto2{
+  margin-top: 60px;
+  color: #848484;
+  float: left;
+  margin-left: 0px;
+  padding-right: 15px;
+ }
+.derecha{
+  margin-top: 60px;
+  font-size: 30px;
+  color: white;
+  
+  
+}
+.footer-barber{
+  background-color: #121619;
+  height: 100px;
+
+}
+
+#bigote{
+  width: 90px;
+  margin-left:45%;
+  padding-top: 40px;
 }
